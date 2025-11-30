@@ -11,12 +11,12 @@ export default function Home() {
 
   return (
     <View className="flex-1 bg-white px-4">
-      <ScreenContent path="app/index.tsx" title="Home" />
+      <ScreenContent path="app/index.tsx" title="Home - Hello John" />
 
       <View className={styles.buttonWrapper} style={{ paddingBottom: insets.bottom }}>
         <Button
           title="Show Details"
-          onPress={() => router.push({ pathname: '/details', params: { name: 'Dan' } })}
+          onPress={() => router.push({ pathname: '/details', params: { name: 'John' } })}
         />
       </View>
     </View>

@@ -1,10 +1,9 @@
 {
   "expo": {
-    "name": "five-currencies",
-    "slug": "five-currencies",
+    "name": "react-native-expo-nativewind-mmkv",
+    "slug": "react-native-expo-nativewind-mmkv",
     "version": "1.0.0",
-
-    "scheme": "five-currencies",
+    "scheme": "react-native-expo-nativewind-mmkv",
     "platforms": ["ios", "android"],
     "web": {
       "bundler": "metro",
@@ -14,15 +13,11 @@
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -36,7 +31,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.fivecurrencies"
     }
   }
 }
