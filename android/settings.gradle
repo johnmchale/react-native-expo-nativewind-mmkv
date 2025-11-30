@@ -31,7 +31,7 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
 }
 expoAutolinking.useExpoModules()
 
-rootProject.name = 'five-currencies'
+rootProject.name = 'react-native-expo-nativewind-mmkv'
 
 expoAutolinking.useExpoVersionCatalog()
 

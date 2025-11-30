@@ -1,4 +1,4 @@
-package com.anonymous.fivecurrencies
+package com.anonymous.reactnativeexponativewindmmkv
 
 import android.os.Build
 import android.os.Bundle
